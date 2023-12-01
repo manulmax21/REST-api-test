@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Rest api site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+<div class="container pt-3" id="app">
+    <h1>Rest API</h1>
+    <form id="formApp" class="form-inline mb-3">
+        <div class="form-group mr-5">
+            <label for="name" class="mr-3">Name</label>
+            <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+            >
+        </div>
+        <div class="form-group mr-5">
+            <label for="value" class="mr-3">Value</label>
+            <input
+                    type="text"
+                    class="form-control"
+                    id="value"
+            >
+        </div>
+        <button class="btn btn-primary mt-3" type="submit" id="create">Create</button>
+    </form>
+    <div id="list">
+<!--        posts          -->
+    </div>
+</div>
+<script type="module" src="frontend.js"></script>
+</body>
+</html>
